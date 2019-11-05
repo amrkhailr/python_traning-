@@ -12,6 +12,3 @@ print('City: ',City)
 print('Sate: ',State)
 print('Zip:',ZIP)
 print("Phone:",Telephone)
-
-b=(a*23)/100
-
