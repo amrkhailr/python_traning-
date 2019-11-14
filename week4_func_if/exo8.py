@@ -21,8 +21,9 @@ total_purchase1 =  (User*retail_price) - discount1
 total_purchase2 =  (User*retail_price) - discount2
 total_purchase3 =  (User*retail_price) - discount3
 total_purchase4 =  (User*retail_price) - discount4
-
-if User >= 10 and User <= 19 :
+if User <= 1 and User <= 9:
+    print('You are not qualified for the discount')
+elif User >= 10 and User <= 19 :
     print('Your total discount is',discount1,'and your total purchase after discount is',total_purchase1 )
 elif User >= 20 and User <= 49:
     print('Your total discount is',discount2,'and your total purchase after discount is',total_purchase2 )
