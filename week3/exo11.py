@@ -14,8 +14,12 @@ def my_function():
     Number_of_paint_gallon_needed = (square_feet/115)*1
     Hours_needed = (square_feet/115)*8
     labor_charges = (Hours_needed/20)*1
+    total_paint_job_cost = Hours_needed * 20
     
-    print('The number of gallons of paint required', Number_of_paint_gallon_needed )
+    print('The number of gallons of paint required is', Number_of_paint_gallon_needed )
+    print('The hours of labor required is ', Hours_needed )
+    print('The labor charges for one hour will be ',labor_charges )
+    print('The cost of the paint job will be' ,total_paint_job_cost)
 
 my_function()
 
