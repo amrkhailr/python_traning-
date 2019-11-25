@@ -14,4 +14,11 @@
 #The program should display the account’s future value.
 
 def main():
-    
+    print("Future Value")
+    initialAmount = float(input("Enter present Amount "))
+    months = float(input("Enter months: "))
+    rate = float(input("Enter interest rate: "))
+    Total_value = Future_Value(initialAmount, months, rate)
+def Future_Value(initialAmount, months, rate):
+    print("Future Value of account: ", initialAmount*(1+rate)**months)
+main()
