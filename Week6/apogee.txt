@@ -1,0 +1,5 @@
+switch1.pitt.pa, pa,0,Cisco,244dsdfs55,10.10.10.1,C2960-48P
+switch2.pitt.pa, pa,1,Cisco,224dsdfs55,10.10.10.2,C2960-48P
+switch3.pitt.pa, pa,2,Cisco,234dsdfs55,10.10.10.3,C2960-48P
+
+
