@@ -7,3 +7,4 @@ def main():
         print('The commission is $', \
               format(commission, ',.2f'), sep='')
 main()
+
